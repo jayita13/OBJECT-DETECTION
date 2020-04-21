@@ -10,7 +10,7 @@ from cvlib.object_detection import draw_bbox
 import cv2
 
 #webcam initiated
-webcam = cv2.VideoCapture("rush.mp4")
+webcam = cv2.VideoCapture(path)
 #width=webcam.get(cv2.CAP_PROP_FRAME_WIDTH)
 #height=webcam.get(cv2.CAP_PROP_FRAME_HEIGHT)
 
